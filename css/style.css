@@ -434,9 +434,52 @@ section {
     line-height: 1.8;
 }
 
+.pricing .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
 
+.pricing .box-container .box {
+    background: var(--bg-color-1);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    text-align: center;
+}
 
+.pricing .box-container .box h3 {
+    padding: 1rem;
+    background: var(--bg-color-2);
+    border-radius: .5rem;
+    color: var(--text-color-1);
+}
 
+.pricing .box-container .box .price {
+    padding-top: 2rem;
+}
+
+.pricing .box-container .box .price span {
+    font-size: 2rem;
+    color: var(--text-color-1);
+}
+
+.pricing .box-container .box .price .amount {
+    font-size: 5rem;
+    color: var(--text-color-1);
+    font-weight: bolder;
+}
+
+.pricing .box-container .box ul {
+    padding: .5rem 0;
+    list-style: none;
+}
+
+.pricing .box-container .box ul {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--text-color-2);
+}
 
 
 
